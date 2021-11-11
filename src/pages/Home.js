@@ -5,6 +5,7 @@ import {Content} from '../components/LandingPage/Content/Content'
 import Carousel from '../components/LandingPage/Carousel/Carousel'
 
 import {heroOne, heroTwo, heroThree} from '../data/HeroData'
+import Footer from '../components/LandingPage/Footer/Footer'
 
 function Home() {
     return (        
@@ -15,6 +16,7 @@ function Home() {
             <Content {...heroTwo} />
             <Content {...heroThree} />
             <Carousel />
+			<Footer />
         </>
     )
 }

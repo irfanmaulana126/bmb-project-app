@@ -19,5 +19,10 @@ export const data = [
 		to: '/pricing',
 		text: 'Pricing',
 		otherPage:false,
+	},
+	{
+		to: '/signup',
+		text: 'Sign Up',
+		otherPage:false,
 	}
 ];

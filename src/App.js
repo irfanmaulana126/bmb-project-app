@@ -4,7 +4,7 @@ import GlobalStyle from "./globalStyles";
 import Home from "./pages/Home";
 import PricingPages from "./pages/PricingPages";
 import Navbar from "./components/LandingPage/Navbar/Navbar";
-import Footer from "./components/LandingPage/Footer/Footer";
+import SignUp from "./pages/SignUp";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <Switch>
         <Route path='/' exact component={Home}/>
         <Route path='/pricing' component={PricingPages}/>
+        <Route path='/signup' component={SignUp}/>
       </Switch>
-			<Footer />
   </Router>
   );
 }
