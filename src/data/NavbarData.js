@@ -21,8 +21,8 @@ export const data = [
 		otherPage:false,
 	},
 	{
-		to: '/signup',
-		text: 'Sign Up',
+		to: '/cobagratis',
+		text: 'Coba Gratis',
 		otherPage:false,
 	}
 ];
