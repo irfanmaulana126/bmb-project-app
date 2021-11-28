@@ -17,7 +17,7 @@ export const FeatureTextWrapper = styled.div`
 
 export const FeatureWrapper = styled.div`
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
+	grid-template-columns: repeat(4, 1fr);
 	margin-top: 4rem;
 	grid-gap: 2rem;
 	@media screen and (max-width: 1100px) {
@@ -34,9 +34,8 @@ export const FeatureColumn = styled(motion.div)`
 	flex-flow: column;
 	justify-content: center;
 	align-items: center;
-	background: #f3f3f3;
 	padding: 10px;
-	box-shadow: 0 0 32px 8px #d0d0d0;
+	box-shadow: 0 0 12px 8px #d0d0d0;
 	border-radius: 20px;
 `;
 
@@ -48,7 +47,7 @@ export const FeatureImageWrapper = styled.div`
 `;
 export const FeatureName = styled.h3`
 	font-weight: 600;
-	font-size: 1.3rem;
+	font-size: 1.2rem;
 	letter-spacing: 2px;
 	@media screen and (max-width: 768px) {
 		font-weight: 400;

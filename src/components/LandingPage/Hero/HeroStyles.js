@@ -5,7 +5,7 @@ export const HeroSection = styled.section`
 	background-color: lightskyblue;
 	background-position: center;
 	background-size: cover;
-	padding-top: clamp(70px, 25vh, 220px);
+	padding-top: clamp(70px, 15vh, 220px);
 	box-shadow: inset 0 0 0 1000px rgba (0, 0, 0, 0.2);
 `;
 
