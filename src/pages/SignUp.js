@@ -20,6 +20,7 @@ export default function SignUp() {
     let templateParams={
         'first_name':data.get('firstName'),
         'last_name':data.get('lastName'),
+        'universitas':data.get('universitas'),
         'to_email':data.get('email'),
         'phone':data.get('phone')
     }
@@ -83,6 +84,16 @@ export default function SignUp() {
                   label="Alamat Email"
                   name="email"
                   autoComplete="email"
+                />
+              </Grid>
+              <Grid item xs={12}>
+                <TextField
+                  required
+                  fullWidth
+                  id="universitas"
+                  label="Universitas"
+                  name="universitas"
+                  autoComplete="universitas"
                 />
               </Grid>
               <Grid item xs={12}>
