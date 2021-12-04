@@ -6,12 +6,12 @@ export const data = [
 		otherPage:false,
 	},
 	{
-		to: 'https://proedu.id',
+		to: 'https://moc.demo.mandiribelajar.co.id',
 		text: 'MOC',
 		otherPage:true,
 	},
 	{
-		to: 'https://proedu.id',
+		to: 'https://sip-mbkm.mandiribelajar.co.id',
 		text: 'SIP-MBKM',
 		otherPage:true,
 	},
